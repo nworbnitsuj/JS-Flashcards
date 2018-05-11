@@ -10,7 +10,7 @@ class Card extends Component {
             <div className="question">Question</div>
           </div>
             <div className="card-back">
-              <div className="answer">"Answer"</div>
+              <div className="answer">Answer</div>
             </div>
           </div>
         </div>
