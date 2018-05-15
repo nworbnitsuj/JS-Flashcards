@@ -2,39 +2,34 @@
   "cards": [
     {
       "id": 1,
-      "eng": "Some word",
-      "han": "Some han word",
-      "pin": "Some pin word"
+      "question": "What is a boolean?",
+      "answer": "A boolean is a variable with a true or false value."
+
     },
     {
       "id": 2,
-      "eng": "Some word 2",
-      "han": "Some han word 2",
-      "pin": "Some pin word 2"
+      "question": "What is the difference between let and const?",
+      "answer": "A let is a designation used when the value of the variable may be changed, while const ist a designation used the the value of the variable will remain constant."
     },
     {
       "id": 3,
-      "eng": "Some word 3",
-      "han": "Some han word 3",
-      "pin": "Some pin word 3"
+      "question": "What is a string?",
+      "answer": "A string is a value that consists of multiple characters, such as a word or a sentence"
     },
     {
       "id": 4,
-      "eng": "Some word 4",
-      "han": "Some han word 4",
-      "pin": "Some pin word 4"
+      "question": "What is the difference between '=' (one equals sign) and '==' (two equals signs)?",
+      "answer": "One equals sign is used for assigned value to a variable; for example 'num=5'.  Two equals signs are used to check whether or not one value is equal to another value."
     },
     {
       "id": 5,
-      "eng": "Some word 5",
-      "han": "Some han word 5",
-      "pin": "Some pin word 5"
+      "question": "What does '!=' mean?",
+      "answer": "Not equal to."
     },
     {
       "id": 6,
-      "eng": "Some word 6",
-      "han": "Some han word 6",
-      "pin": "Some pin word 6"
+      "question": "What is an array?",
+      "answer": "An array is a variable that has several values assigned to it; for example, 'beckysBoys=['Shahzad', 'Spencer', 'VP', 'Tom', 'Rey', 'Reggie', 'Jaime', 'Justin']'"
     }
   ]
 }

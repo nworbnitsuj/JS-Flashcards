@@ -27,9 +27,8 @@ class App extends Component {
     this.database.on('child_added', snap => {
       currentCards.push({
         id: snap.key,
-        eng: snap.val().eng,
-        han: snap.val().han,
-        pin: snap.val().pin,
+        question: snap.val().question,
+        answer: snap.val().answer,
       })
       this.setState({
         cards: currentCards,
@@ -56,9 +55,8 @@ updateCard(){
     return (
       <div className="App">
         <div className="cardRow">
-          <Card eng={this.state.currentCard.eng}
-                han={this.state.currentCard.han}
-                pin={this.state.currentCard.pin}
+          <Card question={this.state.currentCard.question}
+                answer={this.state.currentCard.answer}
             />
         </div>
         <div className="buttonRow">
