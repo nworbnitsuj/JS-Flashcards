@@ -30,7 +30,7 @@
   position: absolute;
   overflow: hidden;
   text-align: center;
-  background-color: rgba(255, 251, 251, 1);
+  background-color: rgba(255,215,0,1);
 }
 
 .card .back {
@@ -38,12 +38,13 @@
   width: 400px;
   text-align: center;
   transform: rotateY(180deg);
+  background-color: rgba(255,215,0,1);
 }
 
 .eng{
   color: #333;
   font-size: 20px;
-  padding-top: 70%;
+  padding-top: 50px;
 }
 
 .han{
