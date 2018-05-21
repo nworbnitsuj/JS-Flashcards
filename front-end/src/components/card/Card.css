@@ -1,19 +1,20 @@
 .card-container {
   cursor: pointer;
-  height: 400px;
-  width: 400px;
+  height: 360px;
+  width: 600px;
   perspective: 800px;
   position: relative;
   margin: auto;
-  padding-top: 50px;
   transition: ease-in;
 }
 
 .card {
-  height: 400px;
-  width: 400px;
+  height: 360px;
+  width: 600px;
   position: absolute;
-  border: 1px solid #300;
+  border: 3px solid;
+  border-color: navy;
+  margin: 100px auto;
   transform-style: preserve-3d;
   transition: all 0.6s ease-in-out;
 }
@@ -24,27 +25,29 @@
 }
 
 .card .front {
-  height: 400px;
-  width: 400px;
+  height: 360px;
+  width: 600px;
+  display: block;
   backface-visibility: hidden;
   position: absolute;
   overflow: hidden;
   text-align: center;
-  background-color: rgba(255,215,0,1);
+  vertical-align: middle;
+  background-color: white;
 }
 
 .card .back {
-  height: 400px;
-  width: 400px;
+  height: 360px;
+  width: 600px;
   text-align: center;
   transform: rotateY(180deg);
-  background-color: rgba(255,215,0,1);
+  background-color: white;
 }
 
 .eng{
   color: #333;
   font-size: 20px;
-  padding-top: 50px;
+  padding-top: 70%;
 }
 
 .han{
